@@ -9,7 +9,7 @@ import com.marathi.android.bhagavadgita.data.BookData;
  * Created by Sandeep.
  */
 public class ShareHelper {
-  public static final String BASE_URL = "http://floydpink.github.io/BhagavadGita/share/";
+  public static final String BASE_URL = "http://sandeepkurne.github.io/BhagavadGita/share/";
 
   public static void ShareChapter(Context context, String chapterName) {
     String chapterTitle = ChapterHelper.getChapterTitleFromChapterSections(BookData.Chapters.get(chapterName));
